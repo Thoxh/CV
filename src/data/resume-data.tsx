@@ -53,7 +53,7 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Technische Hochschule Brandenburg",
+      school: "University of Applied Sciences Brandenburg",
       degree: "Bachelor's Degree in Business Informatics",
       start: "2021",
       end: "2024",
@@ -74,7 +74,17 @@ export const RESUME_DATA = {
       start: "2021",
       end: "",
       description:
-        "Development of digital solutions in line with Industry 4.0 to optimize and automate processes. Research into the application of AI to business processes. Technologies: Flutter, Python, Visual Basic, Node.js",
+        "Development of digital solutions in line with Industry 4.0 to optimize and automate processes. Research into the application of AI to business processes.",
+    },
+    {
+      company: "University of Applied Sciences Brandenburg",
+      link: "https://www.th-brandenburg.de",
+      badges: ["Student assistant"],
+      title: "Full Stack Engineer",
+      start: "2023",
+      end: "",
+      description:
+        "Development of a mobile application for the University of Applied Sciences Brandenburg while working as a student assistant under Prof. Dr.-Ing. André Nitze, enhancing the academic experience and accessibility for the university community.",
     },
   ],
   skills: [
@@ -82,12 +92,29 @@ export const RESUME_DATA = {
     "Python",
     "Java",
     "SQL",
+    "LLMs",
     "Git",
     "Figma",
     "Adobe Creative Cloud",
     "Wordpress",
   ],
   projects: [
+    {
+      title: "Campus App",
+      techStack: [
+        "Side Project",
+        "Flutter",
+        "Directus",
+        "Python",
+        "OpenAI",
+      ],
+      description: "Mobile Campus Application for students of University of Applied Sciences Brandenburg",
+      // logo: Placeholder,
+      link: {
+        label: "Apple AppStore",
+        href: "https://apps.apple.com/de/app/thb-campus/id1084676863",
+      },
+    },
     {
       title: "Websnack",
       techStack: [
